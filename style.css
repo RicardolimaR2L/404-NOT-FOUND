@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+/*header*/
+
+header {
+  margin-top: 40px;
+  margin-left: 77px;
+  margin-bottom: 100px;
+  font-family: 'Inconsolata', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: -0.08em;
+}
+
+/*main content*/
+div.content {
+  display: flex;
+  gap: 118px;
+}
+
+/*aside*/
+aside {
+  margin-left: 77px;
+}
+aside img {
+  height: 447px;
+  width: 539px;
+}
+
+/*main*/
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  width: 586px;
+  height: 190px;
+  margin-top: 265;
+  font-family: 'space Mono' sans-serif;
+  font-size: 64px;
+  line-height: 94.78px;
+  letter-spacing: -3.5%;
+}
+
+p {
+  height: 108px;
+  width: 381px;
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.035em;
+  color: #888585;
+}
+
+button {
+  height: 68px;
+  width: 216px;
+  background: #333333;
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+
+  letter-spacing: -0.035em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+
+  cursor: pointer;
+}
+
+/*button link*/
+a {
+  width: 218px;
+}
