@@ -86,3 +86,36 @@ button {
 a {
   width: 218px;
 }
+
+/*animações*/
+@keyframes fromleft {
+  from {
+    opacity: 0;
+    transform: translatex(-30px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translatex(0);
+  }
+}
+
+aside img {
+  animation: fromleft 2s;
+}
+
+main {
+  animation: fromright 2s;
+}
+
+@keyframes fromright {
+  from {
+    opacity: 0;
+    transform: translatex(30px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translatex(0);
+  }
+}
